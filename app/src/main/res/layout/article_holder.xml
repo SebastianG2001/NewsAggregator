@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Corn_Silk"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvHeadline"
+        android:text="tvHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/big"
+        android:gravity="center"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/tvNewsArticleDate"
+        android:text="tvNewsArticleDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:gravity="start"
+        android:textStyle="italic"/>
+    <TextView
+        android:id="@+id/tvNewsArticleAuthor"
+        android:text="tvNewsArticleAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:gravity="start"
+        android:textStyle="italic"/>
+    <ImageView
+        android:id ="@+id/imgNewsArticle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tvNewsArticleText"
+        android:textColor="@color/grey"
+        android:gravity="start"/>
+
+</LinearLayout>
